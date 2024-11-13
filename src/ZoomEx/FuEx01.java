@@ -1,0 +1,12 @@
+package ZoomEx;
+
+public class FuEx01 {
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    public static void main(String[] args) {
+        int result = add(5, 10);
+        System.out.println("합: " + result);
+    }
+}
